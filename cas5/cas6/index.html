@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+
+<body style="margin: 0px;">
+    <style>
+        #headerContainer {
+            width: 100%;
+            height: 80px;
+            background-color: blue;
+            text-align: center;
+        }
+
+        #headerContainer span {
+            font-size: 30px;
+            color: red;
+        }
+
+        .mainContainer {
+            width: 300px;
+            margin-left: 100px;
+            color: blueviolet;
+        }
+
+        .button {
+            height: 100%;
+            width: 100px;
+        }
+
+        .formaContainer input {
+            height: 50px;
+            width: 300px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: aqua;
+        }
+
+        .formaContainer label {
+            font-size: 30px;
+            color: red;
+
+        }
+        #mojBtn{
+            width: 300px;
+            height: 70px;
+            border: 1px solid black;
+            font-size: 30px;
+            color: white ;
+            background-color: red;
+        }
+    </style>
+    <header>
+        <div id="headerContainer">
+            <span>Registracija</span>
+        </div>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <H1>Unesite svoje podatke</H1>
+            <form class="formaContainer">
+                <label>Ime</label><br />
+                <input type="text" placeholder="Unesite Vase ime">
+                <br />
+                <label>Prezime</label>
+                <br />
+                <input type="text" placeholder="Unesite Vase prezime">
+                <br />
+                <label>Broj</label><br />
+                <input type="number" placeholder="Unesite Vas broj">
+                <br />
+                <label>Email</label><br />
+                <input type="email" placeholder="Unesite Vas Email">
+                <br />
+                <label>Datum Rodjenja</label><br />
+                <input type="date">
+                <br />
+                <button id="mojBtn">Registruj Se</button>
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
