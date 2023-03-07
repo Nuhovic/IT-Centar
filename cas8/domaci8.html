@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body style="margin: 0">
+    <style>
+        main {
+            width: 100%;
+            height: 100vh;
+            background-color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mainContainer {
+            width: 70%;
+            height: 90%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top {
+            width: 80%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bot {
+            width: 80%;
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 400px;
+            height: 720px;
+            border: 4px solid black;
+        }
+
+        .header {
+            height: 20%;
+            width: 100%;
+            background-color: white;
+        }
+
+        .body {
+            height: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 5px;
+        }
+
+        .fotter {
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .body h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .fotter button {
+            width: 40%;
+            height: 30px;
+            background-color: transparent;
+        }
+    </style>
+    <main>
+        <div class="mainContainer">
+            <div class="top">
+                <h1> Cards</h1>
+            </div>
+            <div class="bot">
+                <div class="card">
+                    <div class="header">
+                        <img alt="slika.png"
+                            src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw" />
+                    </div>
+                    <div class="body">
+                        <h1>
+                            Prvi Blog Card jeste vezan za HTML5
+                        </h1>
+                        <p>
+                            HTML je kompjuterski jezik koji se koristi za kreiranje web sajtova. Njegovo puno ime je
+                            HyperText Markup Language.
+                        </p>
+                    </div>
+                    <div class="fotter">
+                        <button><a href="https://www.it-akademija.com/sta-je-html">Read More</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img alt="slika.png" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" />
+                    </div>
+                    <div class="body">
+                        <h1>
+                            Drugi Blog Card jeste vezan za CSS
+                        </h1>
+                        <p>
+                            Druge strane, CSS (Cascading Style Sheets) predstavlja jezik koji se koristi za uređivanje
+                            samog izgleda i formatiranje svih elemenata koje vidimo na sajtu.
+                        </p>
+                    </div>
+                    <div class="fotter">
+                        <button><a href="https://limun.co/bh/blog/314-sta-je-to-css">Read More</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img alt="slika.png"
+                            src="https://mojakartica.zemun.rs/wp-content/uploads/2019/11/it-academy.jpg" />
+                    </div>
+                    <div class="body">
+                        <h1>
+                            ITAcademy
+                        </h1>
+                        <p>Školovanje na ITAcademy usredsređeno je na istraživanje, razvoj i primenu ekspertskih
+                            računarskih veština. Polaznici imaju priliku da istražuju i uče realne tehnike programiranja
+                            i dizajniranja, razvoja softvera, upotrebe programskih i dizajnerskih alata</p>
+
+                    </div>
+                    <div class="fotter">
+                        <button><a href="https://mojakartica.zemun.rs/wp-content/uploads/2019/11/it-academy.jpg">Read
+                                More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
