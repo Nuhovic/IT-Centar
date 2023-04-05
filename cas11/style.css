@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 400px;
+    height: 720px;
+    border: 4px solid black;
+}
+
+.header {
+    height: 20%;
+    width: 100%;
+    background-color: white;
+}
+
+.body {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.fotter {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+}
+
+.body h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.fotter button {
+    width: 40%;
+    height: 30px;
+    background-color: transparent;
+}

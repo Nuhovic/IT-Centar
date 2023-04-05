@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Payment Form</h2>
+        <form method="POST">
+            <h4>Nalog</h4>
+            <div class="input-group"></div>
+            <div class="input-box">
+                <input type="text" placeholder="Puno Ime" required class="Ime">
+
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Nadimak" required class="Nadimak">
+
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required class="Email">
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Datum Rodjenja</h4>
+
+                    <input class="text" placeholder="DD" class="dob">
+                    <input class="text" placeholder="MM" class="dob">
+                    <input class="text" placeholder="YYYY" class="dob">
+                </div>
+                <div class="input-box">
+                    <h4>Pol</h4>
+                    <input title="radio" id="b1" name="gendar" checked class="radio">
+                    <label for="b1">Musko</label>
+                    <input type="radio" id="b2" name="gendar" class="radio">
+                    <label for="b2">Zensko</label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Detalji Placanja</h4>
+                    <input type="radio" name="pay" id="bc1" checked class="radio">
+                    <label for="bc1"><span>Kreditna kartica</span></label>
+                    <input type="radio" name="pay" id="bc2" class="radio">
+                    <label for="bc2"><span>PayPal</span></label>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="tel" placeholder="card number" required class="name ">
+
+                </div>
+
+            </div>
+            <div class=""></div>
+        </form>
+    </div>
+</body>
+
+</html>

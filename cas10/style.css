@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+}
+
+.mainheader {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(0, 0, 255, 0.616);
+    color: #ffff;
+
+}
+
+.left a {
+    color: #ffff;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(0, 0, 255, 0.616);
+    gap: 25px;
+    cursor: pointer;
+}
+
+.right a {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    align-items: center;
+    gap: 20px;
+    color: #ffff;
+    margin-right: 20px;
+}
+
+.right a:hover {
+    opacity: 0.2;
+}
+
+.volume {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.maintop {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffff;
+}
+
+.mainContainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 650px;
+    cursor: pointer;
+}
+
+.card {
+
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 80%;
+    height: 90%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 255, 0.616);
+    font-size: 40px;
+    color: #ffff;
+}
+
+.header a {
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(2, 2, 65);
+    height: 520px;
+    width: 100%;
+    gap: 50px;
+    color: #ffff;
+    font-size: 30px;
+}
+
+.main a {
+    color: #ffff;
+    font-size: 30px;
+}
+
+.main a:hover {
+    opacity: 0.2;
+}
+
+.desni {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    background-color: #ffff;
+}
+
+.desni h1 {
+    margin: 0px;
+}
+
+.div {
+    font-size: 70px;
+    color: rgb(0, 68, 255, 0.863);
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.div1 {
+    font-size: 120px;
+    color: rgb(0, 68, 255, 0.863);
+    margin: 0px;
+}
+
+.zivo {
+    font-size: 100px;
+    width: 1100px;
+    background-color: rgb(0, 68, 255, 0.863);
+    color: #ffff;
+    margin: 0px;
+}

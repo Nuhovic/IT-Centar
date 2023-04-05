@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+header .logo {
+    font-weight: bolder;
+    color: #333;
+    font-size: 40px;
+}
+
+
+header .navBar ul {
+    list-style: none;
+}
+
+header .navBar ul li {
+    position: relative;
+    float: left;
+}
+
+
+
+header .navBar ul li a {
+    font-size: 30px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+
+
+header .navBar ul li a:hover {
+    background: #333;
+    color: whitesmoke;
+}
+
+
+header .navBar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: whitesmoke;
+    display: none;
+
+}
+
+
+
+
+header .navBar ul li ul li {
+    width: 100%;
+    border-top: 1px solid black rgba(0, 0, 0, .1);
+}
+
+
+header .navBar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navBar ul li:focus-within>ul {
+    display: initial;
+}
+
+header .navBar ul li:hover>ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .navBar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+    }
+
+
+    header .navBar ul li {
+        width: 100%;
+    }
+
+    header .navBar ul li ul {
+        position: relative;
+        width: 100%;
+
+    }
+
+    header .navBar ul li ul li {
+        background: #eee;
+
+
+    }
+
+    header .navBar ul li ul li ul {
+        width: 100%;
+        left: 0;
+    }
+
+
+    #menu-bar:checked~.navBar {
+        display: initial;
+    }
+
+
+
+}

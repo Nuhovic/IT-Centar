@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.navBar {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.left button {
+    width:10%;
+    height: 50px;
+    background-color: red;
+}
+button:hover{
+    opacity: 0.9;
+}
+
+.right {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+.right button{
+    width: 10%;
+    height: 50px;
+    background-color: red;
+}

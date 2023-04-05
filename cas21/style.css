@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav {
+    display: flex;
+    width: 100%;
+    background-color: var(--header);
+    justify-content: center;
+  }
+  
+  :root {
+    --header: green;
+  }
+  
+  .navLeft,
+  .navRight {
+    background-color: var(--header);
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navLeft li,
+  .navRight li {
+    display: inline;
+  }
+  
+  .navRight i {
+    color: white;
+  }
+  
+  .navRight {
+    justify-content: flex-end;
+  }
+  
+  .navRight ul {
+    display: flex;
+    gap: 20%;
+  }
+  
+  .navLeft ul {
+    padding: 0;
+  }
+  
+  #down {
+    font-size: 15px;
+  }
+  
+  .navRight ul a {
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(180, 10%, 90%);
+  }
+  
+  .rightHeader {
+    height: 12vh;
+    width: 50%;
+    background-color: hsl(180, 10%, 90%);
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    color:#4b5c74;
+  }
+  
+  .rightHeader a {
+    color: #4b5c74;
+  }
+  
+  main div {
+    height: 20vh;
+  }
+  
+  div.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: var(--header);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+  }
+  
+  div.signUp, div.inputSignUp {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div.signUp {
+    color: white  ;
+    font-size: 22px;
+  }
+  
+  div.signUp h1 span {
+   border-bottom: 3px solid white;
+  padding-bottom: 2%;
+  }
+  
+  div.inputSignUp input {
+    height: 36%;
+    width: 28%;
+    border: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding-left: 1%;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+  
+  .inputSignUp button {
+    height: 36%;
+    width: 15%;
+    background-color: white;
+    border: none;
+    color: var(--header);
+    font-size: 20px;
+    font-weight: 540;
+  }
+  
+  .contactInformation {
+    width: 100%;
+    height: 38vh;
+    background-color: rgb(140, 147, 180);
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+  }
+  
+  .contact {
+    width: 20%;
+    height:38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+  }
+  
+  .contact a, .contact h3 {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .contact h3 {
+    position: absolute;
+    top: 10%;
+  }
+  
+  .contact ul {
+    height: 100%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    position:absolute;
+    top: 30%;
+  }
+  
+  .contact i {
+    color: var(--header);
+    font-size: 24px;
+  }
+  
+  #instagramIcon, #facebookIcon {
+    font-size: 44px;
+  }

@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(166, 194, 219);
+    display: flex;
+
+
+}
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.left i{
+    color: rgb(100, 97, 97);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center{
+    width: 20%;
+    height: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center i{
+    color: rgb(100, 97, 97);
+    font-size: 30px;
+
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+
+}
+.right i{
+    font-size: 30px;
+    color: rgb(100, 97, 97);
+
+}
+.right p{
+    margin-right: 5px;
+    font-size: larger;
+    font-weight: lighter;
+    color:rgb(100, 97, 97) ;
+}
+.glavni{
+
+    width: 100%;
+    height: 150vh;
+
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+.lijevi{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.lijevi h1{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(19, 18, 18);
+    margin-left: 100px;
+}
+.desni{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.desni p{
+    font-size: 12px;
+}
+.desni a{
+    font-size: 12px;
+
+}
+button{
+    margin-right: 100px;
+
+    width: 100px;
+    height: 40px;
+    background-color: rgb(230, 88, 159);
+    border-radius: 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://wallpaper.dog/large/20459084.jpg"); 
+    background-color: #cccccc
+
+}
+.main h1{
+    font-size: 80px;
+    color: white;
+    font-weight: lighter;
+}
+.main p{
+    color: white;
+    padding: 0px 70px 0px 70px;
+}
+
+.button{
+    width: 200px;
+    height: 70px;
+    border: 5vh;
+    background-color: transparent;
+    color: white;
+    border: solid white 2px;
+}
+.footer{
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    width: 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    background-color: aliceblue;
+
+ 
+
+}
+.line{
+    width: 0%;
+    color:rgb(207, 15, 111) ;
+    font-weight: bolder;
+
+}
+
+
+.card2{
+    width: 33%;
+   color: white;
+    height: 100%;
+    background-color: rgb(207, 15, 111);
+    padding: 0px 30px 0px 30px;
+
+}
+.linee{
+    width: 0%;
+    height: 2px;
+    color: black;
+}
+.card3{
+    width: 33%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding:0px 30px 0px 30px;
+
+}
+.crta{
+    width: 0%;
+    background-color: white;
+
+}
+main .pointer{
+    position: sticky;
+    bottom: 5px;
+    left: 1400px;
+
+}
+main .pencil{
+    position: sticky;
+    bottom: 50px;
+    left: 1312px;
+}
+.pointer{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pencil{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#biraj{
+    border: 2px solid white;
+}
+
