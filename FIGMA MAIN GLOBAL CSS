@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  :root {
+    --header: #3f6d69;
+    --headerOpacity: hsla(175, 27%, 34%, 0.8);
+    --footer: #3f3f3f;
+    --footer2: #8d8d8d;
+  }
+  
+  header a,
+  footer a {
+    text-decoration: none;
+  }
+  
+  header ul,
+  footer ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .nav {
+    display: flex;
+    width: 100%;
+    background-color: var(--header);
+    justify-content: center;
+  }
+  
+  .navLeft,
+  .navRight {
+    background-color: var(--header);
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navLeft li,
+  .navRight li {
+    display: inline;
+  }
+  
+  .navRight i {
+    color: white;
+  }
+  
+  .navRight {
+    justify-content: flex-end;
+  }
+  
+  .navRight ul {
+    display: flex;
+    gap: 20%;
+  }
+  
+  .navLeft ul {
+    padding: 0;
+  }
+  
+  .navRight ul a {
+    color: white;
+  }
+  
+  .navRight li:first-child {
+    position: relative;
+  }
+  
+  .navRight li:first-child::after {
+    position: absolute;
+    content: "";
+    width: 2%;
+    height: 100%;
+    background-color: white;
+    right: -20%;
+  }
+  
+  .header {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 5px 20px black;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .leftHeader {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .leftHeader a {
+    margin-left: 18%;
+  }
+  
+  .rightHeader {
+    height: 12vh;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    color: var(--header);
+  }
+  
+  .rightHeader a {
+    color: var(--header);
+    font-weight: 700;
+  }
+  
+  .rightHeader i {
+    font-size: 20px;
+    width: 5%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  
+  .rightHeader i:hover {
+    background-color: var(--header);
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* .......................FOOTER....................... */
+  
+  div.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: var(--header);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div.signUp,
+  div.inputSignUp {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div.signUp {
+    color: white;
+    font-size: 22px;
+  }
+  
+  div.signUp h1 span {
+    border-bottom: 3px solid white;
+    padding-bottom: 2%;
+  }
+  
+  div.inputSignUp input {
+    height: 46%;
+    width: 36%;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding-left: 1%;
+    color: white;
+    font-size: 24px;
+  }
+  
+  ::placeholder {
+    color: #d4d1d1;
+    font-weight: 700;
+  }
+  
+  .inputSignUp button {
+    height: 46%;
+    width: 17%;
+    background-color: white;
+    border: none;
+    color: var(--header);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .footerContainer,
+  .footerBox {
+    height: 50vh;
+    display: flex;
+    padding-top: 4%;
+    gap: 2%;
+  }
+  
+  /* FOR HOME PAGE.... */
+  
+  .footerContainer {
+    background-color: var(--footer);
+  }
+  
+  /* FOR OTHER PAGES..... */
+  
+  .footerBox {
+    background-color: var(--footer2);
+  }
+  
+  .contactFooter {
+    height: 100%;
+    width: 22%;
+  }
+  
+  .contactFooter img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .contactFooter:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactFooter h1 {
+    width: 100%;
+    height: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 26px;
+  }
+  
+  .contactFooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    box-sizing: border-box;
+  }
+  
+  .contactFooter li,
+  .contactFooter li a {
+    font-size: 22px;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .contactFooter a:hover {
+    color: var(--header);
+  }
+  
+  .contactFooter:nth-of-type(2) ul,
+  .contactFooter:nth-of-type(3) ul {
+    gap: 10%;
+  }
+  
+  .contactFooter:nth-of-type(4) ul {
+    display: flex;
+    padding: 0;
+    gap: 10%;
+    align-self: center;
+    height: 80%;
+  }
+  
+  .contactFooter:nth-of-type(4) {
+    display: flex;
+  }
+  
+  .contactFooter:nth-of-type(3) ul {
+    gap: 20%;
+  }
+  
+  .contactFooter i {
+    font-size: 20px;
+    width: 12%;
+    height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: var(--header);
+    background-color: #406966;
+    margin-right: 2%;
+  }
+  
+  .contactFooter #facebookIcon,
+  .contactFooter #instagramIcon {
+    font-size: 60px;
+    padding-inline: 12%;
+    box-sizing: border-box;
+  }
+  
+  #instagramIcon {
+    margin-right: 10%;
+  }
+  
+  .contactFooter li {
+    display: flex;
+  }
+  
+  .contactFooter h2 {
+    font-size: 24px;
+  }
