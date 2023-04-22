@@ -1,0 +1,600 @@
+.carousel .carousel-item {
+    height: 86vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .carousel .carousel-item:first-of-type {
+    background-image: url(./img/mineral.jpg);
+  }
+  
+  .carousel .carousel-item:nth-of-type(2) {
+    background-image: url(./img/asfaltmineralimage.jpg);
+  }
+  
+  .carousel .carousel-item:nth-of-type(3) {
+    background-image: url(./img/mineraldoo.jpg);
+  }
+  
+  .carousel .carousel-item:nth-of-type(4) {
+    background-image: url(./img/mineralisejemimage.jpg);
+  }
+  
+  .carousel .carousel-item:nth-of-type(-n + 4) {
+    background-size: cover;
+    background-position: 10% 65%;
+  }
+  
+  .carousel-item h1,
+  .carousel-item p,
+  .carousel-item button {
+    position: absolute;
+  }
+  
+  .carousel-item:first-of-type h1 {
+    top: 20%;
+    left: 12%;
+    color: white;
+    padding-inline: 1%;
+    font-size: 80px;
+  }
+  
+  .carousel-item:first-of-type h1 {
+    background-color: var(--headerOpacity);
+  }
+  
+  .carousel-item:nth-of-type(2) h1 {
+    color: white;
+    font-size: 80px;
+    left: 12%;
+    top: 20%;
+    padding-inline: 0 30%;
+  }
+  
+  .carousel-item:nth-of-type(2) h1 span {
+    background-color: var(--headerOpacity);
+    padding-inline: 1%;
+  }
+  
+  .carousel-item:nth-of-type(3) h1 {
+    top: 20%;
+    left: 12%;a
+    color: white;
+    font-size: 80px;
+    padding-inline: 0 40%;
+  }
+  
+  .carousel-item:nth-of-type(3) h1 span {
+    background-color: var(--headerOpacity);
+  }
+  
+  .carousel-item:nth-of-type(4) h1 {
+    left: 12%;
+    top: 20%;
+    color: #154440;
+    font-size: 80px;
+    padding-inline: 0 50%;
+  }
+  
+  .carousel-item:nth-of-type(4) h1 span {
+    color: white;
+    background-color: var(--headerOpacity);
+    padding-inline: 1%;
+  }
+  
+  .carousel-item:first-of-type p,
+  .carousel-item:nth-of-type(2) p,
+  .carousel-item:nth-of-type(3) p {
+    left: 12%;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .carousel-item:first-of-type p {
+    top: 40%;
+    width: 38%;
+  }
+  
+  .carousel-item:nth-of-type(2) p,
+  .carousel-item:nth-of-type(3) p {
+    top: 52%;
+    width: 34%;
+  }
+  
+  .carousel-item:nth-of-type(4) p {
+    top: 52%;
+    left: 12%;
+    color: #404847;
+    font-size: 22px;
+    font-weight: 600;
+    padding-inline: 0 50%;
+  }
+  
+  .carousel-item:first-of-type button,
+  .carousel-item:nth-of-type(2) button,
+  .carousel-item:nth-of-type(4) button {
+    width: 8%;
+    height: 8%;
+    border-radius: 8px;
+    background-color: #154440;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 12%;
+  }
+  
+  .carousel-item:first-of-type button {
+    top: 58%;
+  }
+  
+  .carousel-item:nth-of-type(2) button {
+    top: 70%;
+  }
+  
+  .carousel-item:nth-of-type(3) button {
+    width: 10%;
+    height: 8%;
+    top: 65%;
+    left: 12%;
+    border-radius: 8px;
+    background-color: white;
+    color: var(--header);
+    font-size: 20px;
+    outline: none;
+    border: none;
+  }
+  
+  .carousel-item:nth-of-type(4) button {
+    top: 65%;
+  }
+  
+  .aboutUsContainer {
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .aboutUsText {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 1% 7%;
+    box-sizing: border-box;
+  }
+  
+  .aboutUsText h1 {
+    color: var(--header);
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    position: relative;
+  }
+  
+  .aboutUsText h1::before {
+    position: absolute;
+    width: 25%;
+    height: 2.5px;
+    content: "";
+    background-color: var(--header);
+    top: 50%;
+    left: -30%;
+  }
+  
+  .aboutUsText p {
+    color: var(--header);
+    font-size: 24px;
+    font-weight: 350;
+    color: var(--header);
+  }
+  
+  .aboutUsText button {
+    background-color: var(--header);
+    color: white;
+    width: 34%;
+    height: 6%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    margin: 10% 0;
+    transition: 1.5s;
+  }
+  
+  .aboutUsText button i {
+    font-size: 22px;
+  }
+  
+  .aboutUsText button:hover {
+    background-color: white;
+    color: var(--header);
+  }
+  
+  .aboutUsImages {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+  }
+  
+  .aboutUsImages img {
+    position: absolute;
+  }
+  
+  .aboutUsImages img.firstImage {
+    top: 20%;
+    width: 50%;
+    height: 35%;
+  }
+  
+  img.secondImage {
+    top: 6%;
+    right: 10%;
+    width: 35%;
+    height: 49%;
+    object-fit: cover;
+    object-position: 65%;
+  }
+  
+  .thirdImage {
+    bottom: 8%;
+    width: 23%;
+    height: 35%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  
+  .forthImage {
+    width: 62%;
+    height: 30%;
+    object-fit: cover;
+    bottom: 13%;
+    right: 10%;
+  }
+  
+  div.offer {
+    height: 130vh;
+    width: 100%;
+  }
+  
+  div.offerHeading,
+  div.newsAndEventsHeading {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .offerHeading h1,
+  div.newsAndEventsHeading h1 {
+    font-size: 68px;
+    font-weight: 1000;
+    color: var(--header);
+  }
+  
+  .offerHeading h1::before,
+  .offerHeading h1::after,
+  .newsAndEventsHeading h1::before,
+  .newsAndEventsHeading h1::after {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    content: "";
+    background-color: var(--header);
+  }
+  
+  .offerHeading h1::before,
+  .newsAndEventsHeading h1::before {
+    left: 0;
+    width: 30%;
+  }
+  
+  .offerHeading h1::after,
+  .newsAndEventsHeading h1::after {
+    right: 0;
+    width: 30%;
+  }
+  
+  .offerImages {
+    height: 80%;
+    width: 100%;
+    padding-inline: 7%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .offerBox {
+    width: 33%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+    color: var(--header);
+  }
+  
+  .offerBox h3 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .offerBox p {
+    font-size: 20px;
+  }
+  
+  .offerBox img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .offerBox:nth-child(even) {
+    padding: 0 5%;
+  }
+  
+  .buttonContainer {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonContainer button {
+    width: 9%;
+    height: 30%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--header);
+    font-size: 20px;
+    transition: 1.5s;
+  }
+  
+  .buttonContainer button:hover {
+    color: var(--header);
+    background-color: white;
+  }
+  
+  .ourActivity {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ourActivityContainer {
+    height: 82%;
+    width: 70%;
+    background-color: var(--header);
+    margin-right: 5%;
+    position: relative;
+  }
+  
+  .ourActivity #carouselExample {
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -26%;
+  }
+  .ourActivity div.carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  .ourActivity .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ourActivity #carouselExample .carousel-item img {
+    object-fit: cover;
+  }
+  
+  .ourActivityContainer h1,
+  .ourActivity p {
+    position: absolute;
+    color: white;
+  }
+  
+  .ourActivityContainer h1 {
+    font-size: 40px;
+  }
+  
+  .ourActivityContainer p:not(:first-child) {
+    font-size: 16px;
+    padding-right: 10%;
+  }
+  
+  .ourActivityContainer p:first-child {
+    font-size: 22px;
+  }
+  
+  .ourActivityContainer p:first-of-type {
+    top: 25%;
+  }
+  
+  .ourActivityContainer h1:first-of-type {
+    top: 45%;
+  }
+  
+  .ourActivityContainer h1:nth-of-type(3) {
+    top: 45%;
+  }
+  
+  .ourActivityContainer p:nth-of-type(2) {
+    top: 54%;
+  }
+  
+  .ourActivityContainer p:nth-of-type(4) {
+    top: 54%;
+  }
+  
+  .ourActivityContainer h1:nth-of-type(2) {
+    top: 68%;
+  }
+  
+  .ourActivityContainer h1:nth-of-type(4) {
+    top: 68%;
+  }
+  
+  .ourActivityContainer p:nth-of-type(3) {
+    top: 77%;
+  }
+  
+  .ourActivityContainer p:nth-of-type(5) {
+    top: 77%;
+  }
+  
+  .ourActivityContainer p:nth-of-type(-n + 3),
+  .ourActivityContainer h1:nth-of-type(-n + 2) {
+    left: 28%;
+  }
+  
+  .ourActivityContainer p:nth-of-type(n + 4),
+  .ourActivityContainer h1:nth-of-type(n + 3) {
+    left: 60%;
+  }
+  
+  .newsSubHeading h2 {
+    text-align: center;
+    color: var(--header);
+    font-weight: 400;
+    margin-top: -3%;
+  }
+  
+  .newsAndEvents {
+    height: 150vh;
+  }
+  
+  .buildingsContainer {
+    height: 76%;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 3.33%;
+  }
+  
+  div.buildings {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: var(--header);
+  }
+  
+  div.buildings img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .buildings h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 4%;
+  }
+  
+  .buildings p {
+    padding-right: 28%;
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+  
+  .buildings h1 {
+    margin-bottom: 5%;
+  }
+  
+  .buildings button {
+    width: 40%;
+    height: 7%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--header);
+    color: white;
+    font-size: 18px;
+  }
+  
+  .otherLocations {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .otherLocationsHeading {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--header);
+  }
+  
+  .otherLocationsHeading h1 {
+    font-size: 54px;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .otherLocationsHeading h1::before,
+  .otherLocations h1::after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    width: 26%;
+    height: 4%;
+    background-color: var(--header);
+  }
+  
+  .otherLocationsHeading h1::before {
+    right: 110%;
+  }
+  
+  .otherLocationsHeading h1::after {
+    left: 110%;
+  }
+  
+  .locationsCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 10%;
+  }
+  
+  .locations {
+    width: 20%;
+    height: 70%;
+    box-shadow: 2px 5px 10px rgb(144, 142, 142);
+    box-sizing: border-box;
+    padding: 2%;
+  }
+  
+  .locations h3 {
+    color: var(--header);
+    font-size: 32px;
+  }
+  
+  .locations p {
+    font-size: 20px;
+  }
